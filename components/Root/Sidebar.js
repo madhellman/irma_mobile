@@ -47,11 +47,11 @@ const sidebarListItems = [
     text: t('.preferences'),
     navigateTo: 'PreferencesDashboard',
   },
-  // { // NYI
-  //   icon: {ios: 'ios-paper', android: 'md-paper'},
-  //   text: t('.log'),
-  //   navigateTo: false,
-  // },
+  {
+    icon: {ios: 'ios-paper', android: 'md-paper'},
+    text: t('.log'),
+    navigateTo: 'LogDashboard',
+  },
   {
     icon: {name: 'md-add'},
     text: t('.moreAttributes'),

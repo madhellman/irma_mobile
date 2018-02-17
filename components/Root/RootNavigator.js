@@ -3,7 +3,7 @@ import { DrawerNavigator } from 'react-navigation';
 import CredentialDashboard from 'components/CredentialDashboard';
 import Enrollment from 'components/Enrollment';
 
-import Sidebar from './children/Sidebar';
+import Sidebar from './Sidebar';
 
 const RootNavigator = DrawerNavigator(
   {
